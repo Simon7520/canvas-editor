@@ -1,7 +1,7 @@
 import { data, options } from './mock'
 import './style.css'
 import prism from 'prismjs'
-import Editor, { ControlType, EditorMode, ElementType, IElement, PageMode } from './editor'
+import Editor, { ControlType, EditorMode, ElementType, IElement, PageMode } from '@/editor'
 import { Dialog } from './components/dialog/Dialog'
 import { formatPrismToken } from './utils/prism'
 

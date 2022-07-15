@@ -11,7 +11,21 @@
     "noEmit": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noImplicitReturns": true
+    "noImplicitReturns": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+    },
+    "plugins": [
+      // 转换输出 js 文件中的路径
+      { "transform": "typescript-transform-paths" },
+
+      // 转换输出 .d.ts 文件中的路径
+      { "transform": "typescript-transform-paths", "afterDeclarations": true }
+    ]
   },
-  "include": ["./src"]
+  "include": [
+    "./src",
+    "./test"
+  ]
 }
