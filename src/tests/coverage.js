@@ -11,3 +11,7 @@ export const flip = (boolean) => {
 export const sum = (a, b) => {
   return a + b
 }
+
+export const testFunc = (a) => {
+  return a
+}
