@@ -3,7 +3,7 @@
 // 集成测试的覆盖率一般比较低
 
 import { flip, sum } from '../../src/tests/coverage.js'
-// import { testFunc } from '../../src/tests/coverage2.js'
+import { testFunc } from '../../src/tests/coverage2.js'
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 const expect = require('chai').expect
 
@@ -17,4 +17,9 @@ it('测试flip方法-正', () => {
 
 it('adds 1 + 2 to equal 3', () => {
   expect(sum(1, 2)).to.equal(3)
+})
+
+// test Error handling
+it('test func Error', () => {
+  expect(testFunc(1)).to.equal(2)
 })

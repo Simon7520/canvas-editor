@@ -13,8 +13,14 @@ it('测试flip方法-正', () => {
 //   expect(flip(false)).toBe('反')
 // })
 
+// describe可对测试用例分组
 describe('A sunite', () => {
   it('adds 1 + 2 to equal 3', () => {
     expect(sum(1, 2)).toBe(3)
   })
+})
+
+// test Error handling
+it('test func Error', () => {
+  expect(testFunc(1)).toBe(2)
 })

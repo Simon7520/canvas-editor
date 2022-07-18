@@ -18,3 +18,8 @@ test('测试flip方法-正', t => {
 test('adds 1 + 2 to equal 3', t => {
   t.is(sum(1, 2), 3)
 })
+
+// test Error handling
+test('test func Error', t => {
+  t.is(testFunc(1), 2)
+})
