@@ -5,7 +5,7 @@ export const timeConsumingFunc = () => {
   //   console.log(({ error, stdout, stderr }))
   //   res = { status: 1, error, stdout, stderr }
   // })
-  let startTime = new Date().getTime() + 5 * 1000
+  let startTime = new Date().getTime() + 1 * 1000
   while (new Date().getTime() < startTime) {
     // do nothing, only for time consume
   }
@@ -14,7 +14,7 @@ export const timeConsumingFunc = () => {
 
 export const timeConsumingFunc2 = () => {
 
-  let startTime = new Date().getTime() + 3 * 1000
+  let startTime = new Date().getTime() + 1 * 1000
   while (new Date().getTime() < startTime) {
     // do nothing, only for time consume
   }
@@ -23,7 +23,7 @@ export const timeConsumingFunc2 = () => {
 
 export const timeConsumingFunc3 = () => {
 
-  let startTime = new Date().getTime() + 3 * 1000
+  let startTime = new Date().getTime() + 1 * 1000
   while (new Date().getTime() < startTime) {
     // do nothing, only for time consume
   }
@@ -32,7 +32,7 @@ export const timeConsumingFunc3 = () => {
 
 export const timeConsumingFunc4 = () => {
 
-  let startTime = new Date().getTime() + 3 * 1000
+  let startTime = new Date().getTime() + 1 * 1000
   while (new Date().getTime() < startTime) {
     // do nothing, only for time consume
   }
@@ -41,7 +41,7 @@ export const timeConsumingFunc4 = () => {
 
 export const timeConsumingFunc5 = () => {
 
-  let startTime = new Date().getTime() + 3 * 1000
+  let startTime = new Date().getTime() + 1 * 1000
   while (new Date().getTime() < startTime) {
     // do nothing, only for time consume
   }

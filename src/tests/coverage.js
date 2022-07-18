@@ -15,3 +15,4 @@ export const sum = (a, b) => {
 export const testFunc = (a) => {
   return a
 }
+

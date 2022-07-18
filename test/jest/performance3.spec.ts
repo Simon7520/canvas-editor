@@ -1,3 +1,10 @@
+/*
+ * @Author: Simon
+ * @Date: 2022-07-18 09:05:10
+ * @LastEditors: Simon
+ * @LastEditTime: 2022-07-18 09:05:40
+ * @Description: 
+ */
 import {
   timeConsumingFunc,
   timeConsumingFunc2,
@@ -19,4 +26,3 @@ it('测试耗时操作-3', () => {
   console.log({ res })
   expect(res).toBe(3)
 })
-
