@@ -1,0 +1,14 @@
+{
+  "spec_dir": "spec",
+  "spec_files": [
+    "jasmine/?(*.)+(spec|test).[tj]s?(x)"
+  ],
+  "helpers": [
+    "helpers/**/*.js",
+    "helpers/babel.js"
+  ],
+  "env": {
+    "stopSpecOnExpectationFailure": false,
+    "random": true
+  }
+}
