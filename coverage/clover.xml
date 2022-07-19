@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1658128033377" clover="3.2.0">
-  <project timestamp="1658128033377" name="All files">
+<coverage generated="1658207722693" clover="3.2.0">
+  <project timestamp="1658207722693" name="All files">
     <metrics statements="30" coveredstatements="22" conditionals="2" coveredconditionals="1" methods="9" coveredmethods="6" elements="41" coveredelements="29" complexity="0" loc="30" ncloc="30" packages="1" files="3" classes="3"/>
     <file name="coverage.js" path="/Users/simon/Projects/My_Projects/canvas-editor/src/tests/coverage.js">
       <metrics statements="8" coveredstatements="6" conditionals="2" coveredconditionals="1" methods="3" coveredmethods="2"/>
